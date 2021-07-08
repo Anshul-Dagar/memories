@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Heebo&family=Lobster&display=swap" rel="stylesheet"> 
+    <link rel="stylesheet" href="./style.css">
+    <title>Memories</title>
+</head>
+<body>
+  <header>
+      <nav>
+          <h1>Memories</h1>
+          <ul>
+              <li><a data-page="nature" href="#a">Nature</a></li>
+              <li><a data-page="dogs" href="#b">Dogs</a></li>
+              <li><a data-page="flowers" href="#c">Flowers</a></li>
+              <div class="bubble"></div>
+          </ul>
+      </nav>
+  </header>
+  <main>
+   
+    
+    <section data-index="0" class="nature" id="a">
+        <div class="gallery">
+            <div class="img-container">
+                <img src="./previews/photo1-preview.jpg" 
+                alt="Beautiful Green Forest"
+                data-original="./full/photo1-full.jpg"
+                >
+            </div>
+            <div class="img-container">
+                <img src="./previews/photo2-preview.jpg" 
+                alt="Lightining"
+                data-original="./full/photo2-full.jpg"
+                >
+            </div>
+            <div class="img-container">
+                <img src="./previews/photo3-preview.jpg" 
+                alt="Beach"
+                data-original="./full/photo3-full.jpg"
+                >
+            </div>
+            <div class="img-container">
+                <img src="./previews/photo4-preview.jpg" 
+                alt="Beatiful River"
+                data-original="./full/photo4-full.jpg"
+                >
+            </div>
+        </div>
+    </section>
+
+    <section data-index="1" class="dogs" id="b">
+        <div class="gallery">
+            <div class="img-container">
+                <img src="./previews/photo5-preview.jpg" 
+                alt="Beatiful River"
+                data-original="./full/photo5-full.jpg"
+                >
+            </div>
+            <div class="img-container">
+                <img src="./previews/photo6-preview.jpg" 
+                alt="Beatiful River"
+                data-original="./full/photo6-full.jpg"
+                >
+            </div>
+            <div class="img-container">
+                <img src="./previews/photo7-preview.jpg" 
+                alt="Beatiful River"
+                data-original="./full/photo7-full.jpg"
+                >
+            </div>
+            <div class="img-container">
+                <img src="./previews/photo8-preview.jpg" 
+                alt="Beatiful River"
+                data-original="./full/photo8-full.jpg"
+                >
+            </div>
+        </div>
+    </section>
+
+
+    <section data-index="2" class="flowers" id="c">
+        <div class="gallery">
+            <div class="img-container">
+                <img src="./previews/photo9-preview.jpg" 
+                alt="Beatiful River"
+                data-original="./full/photo9-full.jpg"
+                >
+            </div>
+            <div class="img-container">
+                <img src="./previews/photo10-preview.jpg" 
+                alt="Beatiful River"
+                data-original="./full/photo10-full.jpg"
+                >
+            </div>
+            <div class="img-container">
+                <img src="./previews/photo11-preview.jpg" 
+                alt="Beatiful River"
+                data-original="./full/photo11-full.jpg"
+                >
+            </div>
+            <div class="img-container">
+                <img src="./previews/photo12-preview.jpg" 
+                alt="Beatiful River"
+                data-original="./full/photo12-full.jpg"
+                >
+            </div>
+        </div>
+    </section>
+        
+        
+        
+       
+    </div>
+  </main>
+    
+
+    <div class="modal">
+        <img src="./full/photo1-full.jpg" alt="" class="full-img">
+        <p class="caption">abcd</p>
+    </div>
+
+<div class="intro">
+    <div class="intro-text">
+        <h1 class="hide">
+            <span class="text">Memories</span>
+        </h1>
+        <p class="hide">
+            <span class="text">Image Gallery</span>
+        </p>
+    </div>
+</div>
+<div class="slider">
+
+</div>
+
+    
+ 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.7.0/gsap.min.js" integrity="sha512-2fk3Q4NXPYAqIha0glLZ2nluueK43aNoxvijPf53+DgL7UW9mkN+uXc1aEmnZdkkZVvtJZltpRt+JqTWc3TS3Q==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="./app.js"></script>
+</body>
+</html>
